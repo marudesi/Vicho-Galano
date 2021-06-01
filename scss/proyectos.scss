@@ -44,10 +44,6 @@ span{
     transition: all 600ms ease;
 }
 
-.proyectos-img:hover{
-    transform:scale(1.1);
-}
-
 .proyecto-home{
     display: flex;
     margin: 25px 20px 0px 20px;
@@ -98,5 +94,9 @@ span{
     
 .proyectos-img{
     margin:30px 10px 30px 10px;
+    }
+
+.proyectos-img:hover{
+    transform:scale(1.1);
     }
 }
