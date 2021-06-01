@@ -27,7 +27,7 @@
     margin-bottom: 100px;
     }
     
-.ilustraciones-txt h1{
+.ilustraciones-txt h2{
     font-weight: normal;
     font-weight: lighter;
     text-align: start;
@@ -73,7 +73,7 @@
     margin-bottom: 100px;
 }
 
-.vicho-txt h1{
+.vicho-txt h2{
     font-weight: normal;
     font-weight: lighter;
     text-align: start;
@@ -88,22 +88,13 @@
     line-height: 2em;
 }
 
-
-
-/*
-#FFB627 amarillo/naranja !
-#F1A208 amarillo
-#003049 prussian blue
-#BDD9BF verde claro
-#031927 azul oscuro !
-*/
 /*-- Media queries index --*/
 @media only screen and (max-width:360px){
 .ilustraciones-txt{
     margin-top: 0px;
     }
     
-.ilustraciones-txt h1{
+.ilustraciones-txt h2{
     text-align: center;
     margin-top: 0px;
     margin-left: 0px;
@@ -131,7 +122,7 @@
     margin-top: 10px;
     }
 
-.vicho-txt h1{
+.vicho-txt h2{
     text-align: center;
     }
 
@@ -160,7 +151,7 @@
     margin-top: 80px;
     }
 
-.vicho-txt h1{
+.vicho-txt h2{
     text-align: start;
     }
 
@@ -178,6 +169,11 @@
     margin:30px 10px 30px 10px;
     }
 
+.ilustraciones-img:hover{
+    filter: grayscale(0%);
+    transform:scale(1.1);
+    }
+
 .vicho-img{
     width: 60%;
     }
@@ -185,11 +181,6 @@
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
     transform: translateY(-3%);
-    }
-    
-.ilustraciones-img:hover{
-    filter: grayscale(0%);
-    transform:scale(1.1);
     }
 }
 
