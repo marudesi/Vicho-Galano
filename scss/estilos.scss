@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+/*-- Navbar --*/
+#navbar{
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    background-color: #031927;
+    font-weight: bold;
+    position: fixed;
+    z-index: 1;
+    }
+
+.navbar-logo {
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    }
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    }
+
+/*-- Footer --*/
+#footer {
+    height: 150px;
+    background-color:#EFE9E7;
+    color:#253133;
+    text-align: center;
+    } 
+  
+.footer-logo{
+    text-align: center;
+    width: 12em;
+    height: auto;
+    }   
+  
+.footer-iconos{
+    font-size: 25px;
+    color: #253133;
+    width: 50px;
+    height: 50px;
+    }
+
+    
+/*-- Media Queries --*/
+@media only screen and (min-width:1024px)
+{
+.nav-item{
+    padding-right: 4em;
+}
+}
+
+/*-- INDEX --*/
+@import 'home';
+/*-- VICHO+MENTA --*/
+@import 'vichomenta';
+/*-- PROYECTOS --*/
+@import 'proyectos';
+/*-- PORTFOLIO --*/
+@import 'portfolio';
+/*-- CONTACTO --*/
+@import 'contacto';
+/*-- TEXTOS --*/
+@import 'textos';
+

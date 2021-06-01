@@ -1,0 +1,67 @@
+.header-banner {
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 80px; 
+    }
+
+.formulario{
+    margin: 0 auto;
+    width: 340px;
+    background-color: #ffffff;
+    color: #031927;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.form-txt p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.field{
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#btn--enviar {
+        width: 140px;
+        background-color: #003049;
+        border: #031927;
+        color: #ffffff;
+        border-radius: 20px;
+        margin: 40px 0px 10px 20px;
+    }
+
+.imaginarios{
+    background-color: #dfd9e2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    }
+
+.imaginarios p{
+    font-family: 'Lato', sans-serif;
+    color: #031927; 
+}
+
+.imaginarios-img{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:360px){
+.imaginarios-img{
+    width: 30%;
+    }
+}

@@ -1,0 +1,28 @@
+
+.portfolio {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+.portfolio-img {
+    border-radius: 5px;
+    width: 280px;
+    height: 280px;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    transition: all 600ms ease;
+    }
+
+
+@media only screen and (min-width:1024px){
+.portfolio-img:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    }
+}
